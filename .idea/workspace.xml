@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d36869d-786d-47d5-882f-1cb07f46b9a0" name="Changes" comment="">
+    <list default="true" id="2d36869d-786d-47d5-882f-1cb07f46b9a0" name="Changes" comment="Añadir primera consulta y arreglar codigo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MySQLHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MySQLHandler.java" afterDir="false" />
     </list>
-    <list id="a7dce784-99a0-4f53-bd03-ded9f0c2eef5" name="Changes by jcord" comment="" />
+    <list id="a7dce784-99a0-4f53-bd03-ded9f0c2eef5" name="Changes by jcord" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/MySQLHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MySQLHandler.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +25,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/main/java/MySQLHandler.java">
+      <ranges>
+        <range start1="19" end1="65" start2="19" end2="25" changelist="2d36869d-786d-47d5-882f-1cb07f46b9a0" />
+        <range start1="66" end1="93" start2="26" end2="28" changelist="a7dce784-99a0-4f53-bd03-ded9f0c2eef5" />
+      </ranges>
+    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -48,7 +57,14 @@
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="p3bbddii" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MySQLHandler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MySQLHandler" />
       <module name="p3bbddii" />
@@ -58,6 +74,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.MySQLHandler" />
       </list>
     </recent_temporary>
@@ -71,8 +88,16 @@
       <option name="presentableId" value="Default" />
       <updated>1680463417563</updated>
       <workItem from="1680463419386" duration="191000" />
-      <workItem from="1680463693604" duration="942000" />
+      <workItem from="1680463693604" duration="4459000" />
     </task>
+    <task id="LOCAL-00001" summary="Añadir primera consulta y arreglar codigo">
+      <created>1680464708357</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680464708357</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,5 +113,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Añadir primera consulta y arreglar codigo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Añadir primera consulta y arreglar codigo" />
   </component>
 </project>
