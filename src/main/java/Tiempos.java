@@ -3,6 +3,17 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class Tiempos {
+
+    // Función para calcular el tiempo medio de las consultas que se ejecutan cuatro veces
+    public static double mediaTiempoConsulta(double[] tiempos, String consulta) throws SQLException {
+        double media = 0;
+        for (int i = 0; i < tiempos.length; i++) {
+            media += tiempos[i];
+        }
+        media = media / tiempos.length;
+        return media;
+
+    }
     public static double[] tiemposConsultaCuatroVeces(Statement statement, String consulta) throws SQLException {
         double[] tiempos = new double[4];
 
@@ -24,4 +35,5 @@ public class Tiempos {
         resultSet.close();
         return tiempo;
     }
+
 }
