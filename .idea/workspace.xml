@@ -7,7 +7,6 @@
     <list default="true" id="2d36869d-786d-47d5-882f-1cb07f46b9a0" name="Changes" comment="Añadir primera consulta y arreglar codigo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Tiempos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tiempos.java" afterDir="false" />
     </list>
     <list id="a7dce784-99a0-4f53-bd03-ded9f0c2eef5" name="Changes by jcord" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +80,8 @@
       <workItem from="1680463419386" duration="191000" />
       <workItem from="1680463693604" duration="4483000" />
       <workItem from="1680534879359" duration="536000" />
-      <workItem from="1680547122810" duration="7274000" />
+      <workItem from="1680547122810" duration="7300000" />
+      <workItem from="1680601651978" duration="805000" />
     </task>
     <task id="LOCAL-00001" summary="Añadir primera consulta y arreglar codigo">
       <created>1680464708357</created>
