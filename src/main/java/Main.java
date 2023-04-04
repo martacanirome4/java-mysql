@@ -27,12 +27,13 @@ public class Main {
 
 
     // Aray de consultas
+    /*
     private static final String[] QUERIES = {
             SAKILA1_1, SAKILA1_2, WORLD1_1, WORLD1_2,
             SAKILA2_1, SAKILA2_2, WORLD2_1, WORLD2_2,
             SAKILA3_1, SAKILA3_2
     };
-
+    */
     public static void main(String[] args) {
         try {
 
