@@ -5,13 +5,15 @@ import java.sql.Statement;
 public class Tiempos {
 
     // Función para calcular el tiempo medio de las consultas que se ejecutan cuatro veces
-    public static double mediaTiempoConsulta(double[] tiempos, String consulta) throws SQLException {
+    public static double mediaTiempoConsulta(double[] tiempos) throws SQLException {
+        /*(Enhanced for loop)*/
         double media = 0;
-        for (int i = 0; i < tiempos.length; i++) {
-            media += tiempos[i];
+        for (double tiempo : tiempos) {
+            media += tiempo;
         }
         media = media / tiempos.length;
         return media;
+
 
     }
     public static double[] tiemposConsultaCuatroVeces(Statement statement, String consulta) throws SQLException {

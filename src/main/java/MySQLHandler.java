@@ -2,18 +2,12 @@ import java.sql.*;
 
 public class MySQLHandler {
 
-    // Librería de MySQL
-    //public String driver = "com.mysql.jdbc.Driver";
-
-    // Nombre de la base de datos 1 (sakila)
-    private static String urlsakila = "jdbc:mysql://localhost:3306/sakila";
-
-    // Nombre de la base de datos 2 (world)
-    private static String urlworld = "jdbc:mysql://localhost:3306/world";
+    // URLs de las bases de datos
+    private static final String urlsakila = "jdbc:mysql://localhost:3306/sakila";
+    private static final String urlworld = "jdbc:mysql://localhost:3306/world";
 
     // Nombre de usuario
     public static String username = "root";
-
     // Clave de usuario
     public static String password = "Equipo_08BBDD";
 
