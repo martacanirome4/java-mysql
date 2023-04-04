@@ -1,6 +1,6 @@
 # Java-Mysql
-Aplicación Java que realiza la conexión MySQL, a las bases de datos Sakila y World, lleva a cabo una serie de consultas
-sobre las mismas, obtiene la medición de los tiempos de ejecución y calcula su media.
+Aplicación Java que realiza una conexión al SGBD MySQL, y a una isntancia de las bases de datos Sakila y World. Lleva a cabo una serie de consultas
+sobre las mismas, obtiene la medición de los tiempos de ejecución y calcula la media de estas.
 
 ## Tipos de consultas realizadas
 - 4 consultas de funciones predefinidas
@@ -15,7 +15,7 @@ sobre las mismas, obtiene la medición de los tiempos de ejecución y calcula su
 ## Ejecución del programa
 - Clonar el repositorio
 - Ejecutar la clase 'Main'
-La aplicación imprimirá por la terminal el tiempo medio de ejecución de las 12 consultas realizadas
+La aplicación imprimirá por la terminal el tiempo medio de ejecución de las 12 consultas realizadas.
 
 ## Autor
 Marta Canino Romero, @martacanirome (GitHub), 2023
