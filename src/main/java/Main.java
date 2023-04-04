@@ -16,9 +16,9 @@ public class Main {
     private static final String SAKILA3_1 = "SELECT nicer_but_slower_film_list.title, sales_by_film_category.category, " +
             "sales_by_film_category.total_sales FROM nicer_but_slower_film_list " +
             "JOIN sales_by_film_category ON nicer_but_slower_film_list.category = sales_by_film_category.category " +
-            "WHERE sales_by_film_category.total_sales < 5000 limit 20;";
+            "WHERE sales_by_film_category.total_sales < 5000;";
     private static final String SAKILA3_2 = "SELECT title, film_id, rental_duration FROM film " +
-            "WHERE film_id IN  (SELECT film_id FROM inventory WHERE store_id < 6) limit 10;";
+            "WHERE film_id IN  (SELECT film_id FROM inventory WHERE store_id < 6);";
     private static final String WORLD3_1 = "SELECT Name, Capital, population FROM country " +
             "WHERE Capital IN (SELECT ID FROM city WHERE population > 1000000);";
     private static final String WORLD3_2 = "SELECT countrylanguage.countrycode, countrylanguage.language, " +
