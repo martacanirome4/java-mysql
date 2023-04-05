@@ -18,4 +18,4 @@ sobre las mismas, obtiene la medición de los tiempos de ejecución y calcula la
 La aplicación imprimirá por la terminal el tiempo medio de ejecución de las 12 consultas realizadas.
 
 ## Autor
-Marta Canino Romero, @martacanirome (GitHub), 2023
+Marta Canino Romero, @martacanirome4 (GitHub), 2023
